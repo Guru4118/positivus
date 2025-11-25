@@ -6,7 +6,7 @@ import dribble from "./assets/dribble.png"
 import hub from "./assets/hub.png"
 
 import hv from "./assets/hv.png"
-import vector from "./assets/Vector.png"
+import vector from "./assets/vector.png"
 import netflix from "./assets/netflix.png"
 
 import zoom from "./assets/zoom.png"
