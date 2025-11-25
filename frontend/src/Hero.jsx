@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { use } from 'react'
 import herimg from "./assets/hero.png"
 import amazon from "./assets/amazon.png"
 import av from "./assets/av.png"
@@ -10,8 +10,21 @@ import vector from "./assets/vector.png"
 import netflix from "./assets/netflix.png"
 
 import zoom from "./assets/zoom.png"
+import gsap from "gsap";
+import { useEffect } from 'react';
+
 
 function Hero() {
+
+// useEffect(() => {
+//   gsap.to(".hero-img", {
+//     ini
+//     x: 100,
+//     duration: 1.2,
+//     ease: "power2.out"
+//   });
+// }, []);
+
   return (
     <div>
       <div className='mx-5 md:mx-10 lg:mx-30 flex flex-col lg:flex-row justify-between my-10'>
@@ -22,7 +35,7 @@ function Hero() {
           <button className='bg-black text-white px-5 py-3 rounded-lg mt-10 lg:mt-20 shadow-2xl'>Book a consultation</button>
         </div>
         <div className='w-full lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end'>
-          <img src={herimg} alt="" className='max-w-full h-auto' />
+          <img src={herimg} alt="" className='hero-img max-w-full h-auto' />
         </div>
 
 

@@ -12,15 +12,30 @@ import TestimonialCarousel from './TestimonialCarousel'
 function App() {
   return (
 
-    
     <div>
-      <Header/>
-      <Hero/>
-      <Services/>
-      <Case/>
-      <TestimonialCarousel/>
-      <Contactus/>
-    </div>
+  <Header />
+
+  <section id="hero">
+    <Hero />
+  </section>
+
+  <section id="services">
+    <Services />
+  </section>
+
+  <section id="case">
+    <Case />
+  </section>
+
+  <section id="testimonials">
+    <TestimonialCarousel />
+  </section>
+
+  <section id="contact">
+    <Contactus />
+  </section>
+</div>
+
   )
 
 }
